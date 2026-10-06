@@ -1,6 +1,6 @@
 package org.locacao;
 
-public class LocacaoEstado {
+public abstract class LocacaoEstado {
 
     public abstract String getEstado();
 

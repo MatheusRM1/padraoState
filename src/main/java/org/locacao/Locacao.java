@@ -6,7 +6,7 @@ public class Locacao {
     private LocacaoEstado estado;
 
     public Locacao() {
-        this.estado = LocacaoEstadoMatriculado.getInstance();
+        this.estado = LocacaoEstadoDisponivel.getInstance();
     }
 
     public void setEstado(LocacaoEstado estado) {
